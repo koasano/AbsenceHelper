@@ -1,4 +1,4 @@
-module AbsenceLog
+module AbsenceHelper
 
 go 1.17
 
