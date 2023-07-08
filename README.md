@@ -1,0 +1,2 @@
+# AbsenceHelper
+AbsenceHelperはGoogleカレンダーに不在情報を追加するためのコマンドラインツールです。
