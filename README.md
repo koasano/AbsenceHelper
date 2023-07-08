@@ -8,7 +8,7 @@ AbsenceHelperはGoogleカレンダーに不在情報を追加するためのコ�
 ## インストール
 
 ```
-git clone https://github.com/yourusername/AbsenceHelper.git
+git clone https://github.com/koasano/AbsenceHelper.git
 cd AbsenceHelper
 go build
 ```
