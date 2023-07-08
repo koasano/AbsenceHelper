@@ -12,6 +12,11 @@ git clone https://github.com/koasano/AbsenceHelper.git
 cd AbsenceHelper
 go build
 ```
+## 事前準備
+credentials.json と config.json を準備する。
+
+詳細は後述します。
+
 ## 実行例
 以下はAbsenceHelperの実行例です:
 
@@ -35,8 +40,8 @@ go build
 | -s	| 不在情報の要約を格納します。 | Asano 終日不在 |
 | -d	| 不在日の日付を格納します。 | 2023-07-15 |
 | -de	| 複数日指定の場合、終了日を格納します。 | 2023-07-20 |
-| -tb	| 時間指定の場合、開始時間を格納します。 | 13:00 |
-| -te	| 時間指定の場合、終了時間を格納します。 | 18:00 |
+| -tb	| 時間指定の場合、開始時間を格納します。 | 9:00 |
+| -te	| 時間指定の場合、終了時間を格納します。 | 13:00 |
 
 # 注意事項
 このツールには credentials.json と config.json が必要です。
