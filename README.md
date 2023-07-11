@@ -76,4 +76,4 @@ config.jsonファイルは、AbsenceHelperの設定を管理するためのJSON�
 # ライセンス
 MIT
 
-このリポジトリは、ご自由にフォーク、複製、変更を行ってください。ただし、このプロジェクトを使用したことによるいかなる損害についても作者は責任を負いません。
+This project is licensed under the terms of the MIT license.
