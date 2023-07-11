@@ -5,6 +5,10 @@ AbsenceHelperはGoogleカレンダーに勤怠情報を追加するためのコ�
 このツールは、コマンドライン引数を解析し、Googleカレンダーにイベントを追加することができます。不在情報、不在日、時間指定、複数日指定などを指定してカレンダーに追加できます。
 
 # 使用方法
+## 事前準備
+credentials.json と config.json を準備する。
+詳細は後述。
+
 ## インストール
 
 ```
@@ -12,10 +16,6 @@ git clone https://github.com/koasano/AbsenceHelper.git
 cd AbsenceHelper
 go build
 ```
-## 事前準備
-credentials.json と config.json を準備する。
-
-詳細は後述します。
 
 ## 実行例
 以下はAbsenceHelperの実行例です:
