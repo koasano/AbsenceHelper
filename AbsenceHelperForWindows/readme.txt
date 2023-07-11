@@ -1,13 +1,13 @@
 # 使用例
 
 1. 終日指定の場合:
-./AbsenceHelper -s "Asano 終日不在" -d 2023-07-15
+./AbsenceHelper.exe -s "Asano 終日不在" -d 2023-07-15
 
 2. 複数日指定の場合:
-./AbsenceHelper -s "Asano 終日不在" -d 2023-07-15 -de 2023-07-20
+./AbsenceHelper.exe -s "Asano 終日不在" -d 2023-07-15 -de 2023-07-20
 
 3. 時間指定の場合:
-./AbsenceHelper -s "Asano AM不在" -d 2023-07-16 -tb 09:00 -te 13:00
+./AbsenceHelper.exe -s "Asano AM不在" -d 2023-07-16 -tb 09:00 -te 13:00
 
 
 # 注意事項
