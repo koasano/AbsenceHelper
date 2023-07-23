@@ -15,8 +15,8 @@ if env GOOS=windows GOARCH=amd64 go build -o AbsenceHelper.exe &&
 	if [ ! -d "AbsenceHelperForWindows" ]; then
 		mkdir AbsenceHelperForWindows
 	fi
-	mv AbsenceHelper.exe AbsenceHelperForWindows &&
-	cp config.json AbsenceHelperForWindows; then
+	mv -f AbsenceHelper.exe AbsenceHelperForWindows &&
+	cp -f config.json AbsenceHelperForWindows; then
 	echo "Success!"
 else
 	echo "Failure!"
